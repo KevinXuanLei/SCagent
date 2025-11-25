@@ -1,4 +1,4 @@
-import ChatHeader from "../components/layout/ChatHeader";
+import ChatHeader from "@components/layout/ChatHeader";
 
 export default function ChatPage() {
     return (
