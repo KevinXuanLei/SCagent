@@ -1,4 +1,5 @@
 import ChatHeader from "@components/layout/ChatHeader";
+import ChatFooter from "@components/layout/ChatFooter";
 
 export default function ChatPage() {
     return (
@@ -7,7 +8,9 @@ export default function ChatPage() {
                 <ChatHeader />
             </div>
             <div className="chat-body flex-1 border-b border-gray-300">"chatbody here"</div>
-            <div className="chat-footer border-t border-gray-300">"chatfooter here"</div>
+            <div className="chat-footer border-t border-gray-300">
+                <ChatFooter />
+            </div>
         </div>
     );
 }
